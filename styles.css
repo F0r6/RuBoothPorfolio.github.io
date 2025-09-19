@@ -19,7 +19,7 @@ This is main CSS file that contains custom style rules used in this template
 /** Base Styles
 --------------------------------------------------------------*/
 :root {
-  --accent-color: #B775FF;
+  --accent-color: #9C0000;
   --secondary-color: ;
   --dark-color: #2D2D2D;
   --white-color: #FFFFFF;
@@ -34,7 +34,7 @@ This is main CSS file that contains custom style rules used in this template
   --bs-gray-100: #EAE5DD;
   --bs-gray-300: #DCDCDC;
   --bs-body-color-rgb: 53, 53, 53;
-  --bs-primary-rgb: 183, 117, 255;
+  --bs-primary-rgb: 207, 0, 24;
   --bs-secondary-rgb: 249, 246, 243;
 }
 
@@ -168,7 +168,7 @@ a:hover {
 
 .btn-gradient {
   --bs-btn-color: #fff;
-  background-image: linear-gradient(to right, #7710E9, #8F3AEC);
+  background-image: linear-gradient(to right, #bd002c, #ff3a58);
   border: 0;
 }
 
@@ -178,7 +178,7 @@ a:hover {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #7710E9;
+  background: #bd002c;
   border: none;
   color: white;
   cursor: pointer;
@@ -191,7 +191,7 @@ a:hover {
 
 .button:hover {
   color: white;
-  background: #7710E9;
+  background: #bd002c;
 }
 
 .button span {
@@ -207,7 +207,7 @@ a:hover {
   top: var(--y);
   width: var(--size);
   height: var(--size);
-  background: radial-gradient(circle closest-side, #8F3AEC, transparent);
+  background: radial-gradient(circle closest-side, #ff3a58, transparent);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   transition: width .2s ease, height .2s ease;
@@ -306,7 +306,7 @@ a:hover {
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #7710E9;
+  border-top-color: #bd002c;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
@@ -320,7 +320,7 @@ a:hover {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #8F3AEC;
+  border-top-color: #ff3a58;
   -webkit-animation: spin 3s linear infinite;
   animation: spin 3s linear infinite;
 }
@@ -334,7 +334,7 @@ a:hover {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #B775FF;
+  border-top-color: #bd002c;
   -webkit-animation: spin 1.5s linear infinite;
   animation: spin 1.5s linear infinite;
 }
@@ -417,11 +417,11 @@ button.filter-button {
 }
 
 button.filter-button.active {
-  background-image: linear-gradient(to right, #7710E9, #8F3AEC);
+  background-image: linear-gradient(to right, #bd002c, #ff3a58);
 }
 
 button.filter-button:hover {
-  background-image: linear-gradient(to right, #7710E9, #8F3AEC);
+  background-image: linear-gradient(to right, #bd002c, #ff3a58);
 }
 
 /* Image zoom effect on hover */

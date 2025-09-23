@@ -1,1 +1,1 @@
-# RuBooth.github.io
+# RuBooth
